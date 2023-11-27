@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="html, course, css, tags">
+    <meta name="Description" content="Это базовый курс по hTML">
+    <title>HTML Course!!</title>
+</head>
+<body>
+    <img src="imgs/html1.jpg" width="250" alt="Не удалось загрузить изображение">
+    <h1>Даниил Сытилин</h1>
+
+   <p>Я решил изучать <strong> програмирование</strong>, чтобы стать <em>хорошим специалистом</em> в будующем</p>
+   <p>Cписок соцсетей:
+    <br>
+    <a href="https://t.me/Black_hedgeh0g" target="_blank">Telegram</a>
+   </p>
+   <p>
+    <H3> Мои хобби</H3>
+    <ol>
+        <li>Книги</li>
+        <li>Музыка</li>
+        <li>Механика</li>
+        <li>Путешествие</li>
+    </ol>
+   </p>
+   <h3>Мой опыт работы</h3>
+<table>
+    <thead>
+        <tr>
+            <th>Название</th>
+            <th>Должность</th>
+            <th>Год</th>
+        </tr>
+    </thead>
+    <tbody>
+    <tr>   
+        <td>Сыроварня</td>
+        <td>Сыровар</td>
+        <td>2020-2020</td>
+    </tr>
+    <tr>
+        <td>Пробки</td>
+        <td>Оператор</td>
+        <td>2020-2022</td>
+    </tr>
+    <tr>
+        <td>Салфетки</td>
+        <td>Оператор</td>
+        <td>2022-2024</td>
+    </tr>
+</tbody>
+</table>
+<h3>Связаться со мной</h3>
+<div>   
+    <label for="name">Ваше имя:</label>
+    <input type="text" placeholder="Введите имя">
+</div>
+<div>
+    <label for="Email">Ваш Email:</label>
+    <input type="email" placeholder="Введите Email">
+</div>
+<div>
+    <label for="message">Ваше Сообщение:</label>
+    <br>
+    <textarea name="message" cols="30" rows="3" placeholder="Введите Сообщение..."></textarea>
+</div>
+<div>
+    <Button>Отправить Сообщение</Button>
+</div>
+</body>
+
+</body>
+</html>
