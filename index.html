@@ -7,17 +7,22 @@
     <meta name="keywords" content="html, course, css, tags">
     <meta name="Description" content="Это базовый курс по hTML">
     <title>HTML Course!!</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-      <img src="html1.jpg" width="250" alt="Не удалось загрузить изображение">
-    <h1>Даниил Сытилин</h1>
-
-   <p>Я решил изучать <strong> програмирование</strong>, чтобы стать <em>хорошим специалистом</em> в будующем</p>
-   <p>Cписок соцсетей:
-    <br>
-    <a href="https://t.me/Black_hedgeh0g" target="_blank">Telegram</a>
-   </p>
+    <div class="Info">
+    <img class="avatar" src="html1.jpg" width="250" alt="Не удалось загрузить изображение">
+        <div class="info-text">
+        <h1>Даниил Сытилин</h1>
+        <p>Я решил изучать <strong> програмирование</strong>, чтобы стать <em>хорошим специалистом</em> в будущем</p>
+        <p>Cписок соцсетей:
+        <br>
+        <a href="https://t.me/Black_hedgeh0g" target="_blank">Telegram</a>
+        </p>
+        </div>
+    </div>
    <p>
+<div class="card bg-Green">
     <H3> Мои хобби</H3>
     <ol>
         <li>Книги</li>
@@ -26,8 +31,10 @@
         <li>Путешествие</li>
     </ol>
    </p>
+</div>
+<div class="card bg-blue">
    <h3>Мой опыт работы</h3>
-<table>
+<table style="margin-bottom: 15px;">
     <thead>
         <tr>
             <th>Название</th>
@@ -53,6 +60,8 @@
     </tr>
 </tbody>
 </table>
+</div>
+<div class="card bg-MediumSlateBlue">
 <h3>Связаться со мной</h3>
 <div>   
     <label for="name">Ваше имя:</label>
@@ -70,13 +79,7 @@
 <div>
     <Button>Отправить Сообщение</Button>
 </div>
-
-
-
-   
-
-
-
+</div>
 </body>
 
 

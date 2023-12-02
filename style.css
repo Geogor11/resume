@@ -1,0 +1,40 @@
+ @import url('https://fonts.googleapis.com/css2?family=Roboto&family=Vina+Sans&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+h1{
+    color: rgb(75, 1, 5);
+}
+.avatar {
+    border: 5px  solid purple;
+}
+body {
+        background: #fff;
+        font-family: 'Roboto' serif;
+        font-size: 16px;
+        color: #4a4a4a;
+        font-weight: normal;
+
+}
+.info-text {
+    font-family: 'Roboto Slab';
+    font-weight: bold;
+    color: #8b8b8b;
+}
+.card {
+    border: 1px solid black;
+    background: white;
+    border-radius: 15px;
+    margin-bottom: 15px;
+    padding-left: 25px;
+}
+.bg-Green {
+    background-color: rgb(2, 84, 2);
+    color: white;
+}
+.bg-blue {
+    background-color: cadetblue;
+    color: white;
+}
+.bg-MediumSlateBlue {
+    background-color: rgb(67, 77, 200);
+    color: rgb(255, 252, 252);
+}
